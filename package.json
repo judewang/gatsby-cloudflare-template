@@ -1,0 +1,77 @@
+{
+  "name": "gatsby-startup-for-cloudflare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gatsby startup for Cloudflare",
+  "author": "jude",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@react-hookz/web": "^12.0.0",
+    "@react-spring/web": "^9.3.0",
+    "gatsby": "^4.0.1",
+    "gatsby-plugin-google-analytics": "^4.0.0",
+    "gatsby-plugin-graphql-codegen": "^3.0.0",
+    "gatsby-plugin-image": "^2.0.0",
+    "gatsby-plugin-layout": "^3.0.0",
+    "gatsby-plugin-manifest": "^4.0.0",
+    "gatsby-plugin-mdx": "^3.0.0",
+    "gatsby-plugin-react-i18next": "^1.2.1",
+    "gatsby-plugin-root-import": "^2.0.7",
+    "gatsby-plugin-sharp": "^4.0.1",
+    "gatsby-plugin-theme-ui": "^0.11.3",
+    "gatsby-source-filesystem": "^4.0.0",
+    "gatsby-transformer-sharp": "^4.0.0",
+    "i18next": "^21.3.3",
+    "js-cookie": "^3.0.1",
+    "lodash-es": "^4.17.21",
+    "polished": "^4.1.3",
+    "qs": "^6.10.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.18.0",
+    "react-i18next": "^11.12.0",
+    "react-use-gesture": "^9.1.3",
+    "theme-ui": "^0.11.3"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.28.2",
+    "@types/node": "^16.11.6",
+    "@types/prettier": "^2.4.1",
+    "@types/reach__router": "^1.3.9",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0",
+    "typescript": "^4.4.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "languages": [
+      "en",
+      "ja",
+      "ko",
+      "zh-tw",
+      "zh-cn"
+    ],
+    "defaultLanguage": "zh-tw"
+  }
+}
